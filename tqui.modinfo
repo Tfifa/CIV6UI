@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="b6009e6b-2027-3b83-3e6a-5b16f723037e" version="0.5">
+	<Properties>
+		<Name>tfifa Quick UI</Name>
+		<Description>Reduce clicks and management easy</Description>
+		<Teaser>Reduce clicks and make empire management easy</Teaser>
+		<Authors>vans163, chaorace, </Authors>
+		<SpecialThanks>vans163 for his original qui mod. astog for his Better Trade Screen mod.  Divine Yuri for his Custom City Panel mod. Greg Miller for his Unit Report Screen mod.</SpecialThanks>
+	</Properties>
+	<Components>
+		<ImportFiles id="TQUI_IMPORT_FILES">
+			<Items>
+				<!-- cinty banner -->
+				<File>UI/WorldView/CityBannerManager.lua</File>
+				<File>UI/WorldView/CityBannerManager.xml</File>
+				<!-- city panels			 -->
+				<File>UI/Panels/CityPanel.lua</File>
+				<File>UI/Panels/CityPanel.xml</File>
+				<!-- popups				 -->
+				<File>UI/Popups/BoostUnlockedPopup.lua</File>
+				<File>UI/Popups/TechCivicCompletedPopup.lua</File>
+				<File>UI/Popups/TechCivicCompletedPopup.xml</File>
+				<File>UI/Popups/NaturalWonderPopup.lua</File>
+				<File>UI/InGame.lua</File>
+				<!-- combatinfo toppanel -->
+				<File>UI/Panels/StatusMessagePanel.lua</File>
+				<File>UI/Panels/StatusMessagePanel.xml</File>
+				<File>UI/TopPanel.lua</File>
+				<!-- HBMAP -->
+				<File>HBMap/HBPangaea.lua</File>
+				<File>HBMap/HBOval.lua</File>
+				<File>HBMap/MapConfig.sql</File>
+				<File>HBMap/AssignStartingPlots.lua</File>
+				<File>HBMap/MountainsCliffs.lua</File>
+				<File>HBMap/ResourceGenerator.lua</File>
+				<File>HBMap/FeatureGenerator.lua</File>
+				<File>HBMap/TerrainGenerator.lua</File>
+			</Items>
+		</ImportFiles>
+		<ImportFiles id="BETTER_TRADE_SCREEN_IMPORT_FILES">
+			<Items>
+				<File>BTS/TradeOverview.xml</File>
+				<File>BTS/TradeOverview.lua</File>
+				<File>BTS/Choosers/TradeRouteChooser.xml</File>
+				<File>BTS/Choosers/TradeRouteChooser.lua</File>
+				<File>BTS/Choosers/TradeOriginChooser.xml</File>
+				<File>BTS/Choosers/TradeOriginChooser.lua</File>
+			</Items>
+		</ImportFiles>
+		<ImportFiles id="UNITREPORT_IMPORT_FILES">
+			<Items>
+				<File>URS/ReportScreen.lua</File>
+				<File>URS/ReportScreen.xml</File>
+				<File>URS/UnitPromotionPopup.lua</File>
+			</Items>
+		</ImportFiles>
+		<LocalizedText id="TQUI_TEXT">
+			<Items>
+				<File>TQUI/Text_CN.xml</File>
+			</Items>
+		</LocalizedText>
+	</Components>
+	<Files>
+		<!-- cinty banner -->
+		<File>UI/WorldView/CityBannerManager.lua</File>
+		<File>UI/WorldView/CityBannerManager.xml</File>
+		<!-- city panels			 -->
+		<File>UI/Panels/CityPanel.lua</File>
+		<File>UI/Panels/CityPanel.xml</File>
+		<!-- popups				 -->
+		<File>UI/Popups/BoostUnlockedPopup.lua</File>
+		<File>UI/Popups/TechCivicCompletedPopup.lua</File>
+		<File>UI/Popups/TechCivicCompletedPopup.xml</File>
+		<File>UI/Popups/NaturalWonderPopup.lua</File>
+		<File>UI/InGame.lua</File>
+		<!-- combatinfo toppanel -->
+		<File>UI/Panels/StatusMessagePanel.lua</File>
+		<File>UI/Panels/StatusMessagePanel.xml</File>
+		<File>UI/TopPanel.lua</File>
+		<!-- HBMAP -->
+		<File>HBMap/HBPangaea.lua</File>
+		<File>HBMap/HBOval.lua</File>
+		<File>HBMap/MapConfig.sql</File>
+		<File>HBMap/AssignStartingPlots.lua</File>
+		<File>HBMap/MountainsCliffs.lua</File>
+		<File>HBMap/ResourceGenerator.lua</File>
+		<File>HBMap/FeatureGenerator.lua</File>
+		<File>HBMap/TerrainGenerator.lua</File>
+		<File>BTS/TradeOverview.xml</File>
+		<File>BTS/TradeOverview.lua</File>
+		<File>BTS/Choosers/TradeRouteChooser.xml</File>
+		<File>BTS/Choosers/TradeRouteChooser.lua</File>
+		<File>BTS/Choosers/TradeOriginChooser.xml</File>
+		<File>BTS/Choosers/TradeOriginChooser.lua</File>
+		<File>URS/ReportScreen.lua</File>
+		<File>URS/ReportScreen.xml</File>
+		<File>URS/UnitPromotionPopup.lua</File>
+		<File>TQUI/Text_CN.xml</File>
+	</Files>
+	<Settings>
+		<Custom id="HB_MAP_SETTING">
+			<Items>
+				<File>HBMap/MapConfig.sql</File>
+			</Items>
+		</Custom>
+	</Settings>
+</Mod>
