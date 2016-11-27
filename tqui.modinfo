@@ -26,6 +26,8 @@
 				<File>UI/Panels/StatusMessagePanel.lua</File>
 				<File>UI/Panels/StatusMessagePanel.xml</File>
 				<File>UI/TopPanel.lua</File>
+				<!-- WorldViewIcons -->
+				<File>UI/WorldViewIconsManager.lua</File>
 				<!-- HBMAP -->
 				<File>HBMap/HBPangaea.lua</File>
 				<File>HBMap/HBOval.lua</File>
@@ -77,6 +79,8 @@
 		<File>UI/Panels/StatusMessagePanel.lua</File>
 		<File>UI/Panels/StatusMessagePanel.xml</File>
 		<File>UI/TopPanel.lua</File>
+		<!-- WorldViewIcons -->
+		<File>UI/WorldViewIconsManager.lua</File>
 		<!-- HBMAP -->
 		<File>HBMap/HBPangaea.lua</File>
 		<File>HBMap/HBOval.lua</File>

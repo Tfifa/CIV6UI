@@ -1,326 +1,324 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
-    <LocalizedText>
-        <!-- cityview -->
-        <Replace Tag="LOC_HUD_CITY_REQUIRED_AMENITIES" Language="zh_Hans_CN">
-            <Text>所需宜居度</Text>
-        </Replace>
-        <Replace Tag="LOC_CQUI_Entertainment" Language="zh_Hans_CN">
-            <Text>娱乐设施</Text>
-        </Replace>
-        <Replace Tag="LOC_CQUI_GreatPeople" Language="zh_Hans_CN">
-            <Text>伟人</Text>
-        </Replace>
-        <Replace Tag="LOC_CQUI_NationalParks" Language="zh_Hans_CN">
-            <Text>国家公园</Text>
-        </Replace>
-        <Replace Tag="LOC_CQUI_WarWeariness" Language="zh_Hans_CN">
-            <Text>厌战</Text>
-        </Replace>
-        <Replace Tag="LOC_NCP_TOOLTIP" Language="zh_Hans_CN">
-            <Text>一旦达到下一次文化边界增长时城市将会拓展到这一地块。</Text>
-        </Replace>
-        <!-- deal with -->
-        <Replace Tag="LOC_HUD_REPORTS_TAB_Current_Deals" Language="zh_Hans_CN">
-            <Text>贸易条款</Text>
-        </Replace>
-        <Replace Tag="LOC_HUD_DEAL_OUTGOING" Language="zh_Hans_CN">
-            <Text>出口</Text>
-        </Replace>
-        <Replace Tag="LOC_HUD_DEAL_INGOING" Language="zh_Hans_CN">
-            <Text>进口</Text>
-        </Replace>
-        <Replace Tag="LOC_HUD_TRADETOTAL" Language="zh_Hans_CN">
-            <Text>总计</Text>
-        </Replace>
-        <Replace Tag="LOC_HUD_REPORTS_TAB_HCB" Language="zh_Hans_CN">
-            <Text>隐藏城市建筑</Text>
-        </Replace>
-        <!-- unit details -->
-        <Replace Tag="LOC_HUD_REPORTS_TAB_UNITS" Language="zh_Hans_CN">
-            <Text>单位概览</Text>
-        </Replace>
-        <Replace Tag="LOC_HUD_UNITSDETAILS_TYPE" Language="zh_Hans_CN">
-            <Text>类型</Text>
-        </Replace>
-        <Replace Tag="LOC_HUD_UNITS_UNIT" Language="zh_Hans_CN">
-            <Text>单位</Text>
-        </Replace>
-        <Replace Tag="LOC_HUD_UNITS_Unit_Expenses" Language="zh_Hans_CN">
-            <Text>单位开支</Text>
-        </Replace>
-        <Replace Tag="LOC_HUD_UNITS_Great_People" Language="zh_Hans_CN">
-            <Text>伟人</Text>
-        </Replace>
-        <Replace Tag="LOC_HUD_UNITS_Spy" Language="zh_Hans_CN">
-            <Text>间谍</Text>
-        </Replace>
-        <Replace Tag="LOC_HUD_UNITS_Religious" Language="zh_Hans_CN">
-            <Text>宗教</Text>
-        </Replace>
-        <Replace Tag="LOC_HUD_UNITS_Trader" Language="zh_Hans_CN">
-            <Text>商人</Text>
-        </Replace>
-        <Replace Tag="LOC_HUD_UNITS_Military_Land" Language="zh_Hans_CN">
-            <Text>陆军</Text>
-        </Replace>
-        <Replace Tag="LOC_HUD_UNITS_Military_Air" Language="zh_Hans_CN">
-            <Text>空军</Text>
-        </Replace>
-        <Replace Tag="LOC_HUD_UNITS_Military_Sea" Language="zh_Hans_CN">
-            <Text>海军</Text>
-        </Replace>
-        <Replace Tag="LOC_HUD_UNITS_Civilian_Support" Language="zh_Hans_CN">
-            <Text>辅助单位</Text>
-        </Replace>
-        <Replace Tag="LOC_HUD_UNITS_Name" Language="zh_Hans_CN">
-            <Text>单位</Text>
-        </Replace>
-        <Replace Tag="LOC_HUD_UNITS_Status" Language="zh_Hans_CN">
-            <Text>状态</Text>
-        </Replace>
-        <Replace Tag="LOC_HUD_UNITS_Level" Language="zh_Hans_CN">
-            <Text>等级</Text>
-        </Replace>
-        <Replace Tag="LOC_HUD_UNITS_Experience" Language="zh_Hans_CN">
-            <Text>经验</Text>
-        </Replace>
-        <Replace Tag="LOC_HUD_UNITS_Health" Language="zh_Hans_CN">
-            <Text>生命</Text>
-        </Replace>
-        <Replace Tag="LOC_HUD_UNITS_Movement" Language="zh_Hans_CN">
-            <Text>行动力</Text>
-        </Replace>
-        <Replace Tag="LOC_HUD_UNITS_Charges" Language="zh_Hans_CN">
-            <Text>次数</Text>
-        </Replace>
-        <Replace Tag="LOC_HUD_UNITS_Number_of_Units" Language="zh_Hans_CN">
-            <Text>总计</Text>
-        </Replace>
-        <Replace Tag="LOC_HUD_UNITS_Route" Language="zh_Hans_CN">
-            <Text>路线</Text>
-        </Replace>
-        <Replace Tag="LOC_HUD_UNITS_Yields" Language="zh_Hans_CN">
-            <Text>收益</Text>
-        </Replace>
-        <Replace Tag="LOC_HUD_UNITS_Class" Language="zh_Hans_CN">
-            <Text>类别</Text>
-        </Replace>
-        <Replace Tag="LOC_HUD_UNITS_Strength" Language="zh_Hans_CN">
-            <Text>宗教力量</Text>
-        </Replace>
-        <Replace Tag="LOC_HUD_UNITS_Spreads" Language="zh_Hans_CN">
-            <Text>传播</Text>
-        </Replace>
-        <Replace Tag="LOC_HUD_UNITS_No_Route" Language="zh_Hans_CN">
-            <Text>无</Text>
-        </Replace>
-        <Replace Tag="LOC_HUD_UNITS_No_Yields" Language="zh_Hans_CN">
-            <Text>无</Text>
-        </Replace>
-        <Replace Tag="LOC_HUD_UNITS_Turns" Language="zh_Hans_CN">
-            <Text>剩余回合</Text>
-        </Replace>
-        <Replace Tag="LOC_HUD_UNITS_Mission" Language="zh_Hans_CN">
-            <Text>任务</Text>
-        </Replace>
-        <Replace Tag="LOC_HUD_UNITS_Promotion" Language="zh_Hans_CN">
-            <Text>升级可用</Text>
-        </Replace>
-        <Replace Tag="LOC_HUD_UNITS_In_Formation" Language="zh_Hans_CN">
-            <Text>队列</Text>
-        </Replace>
-        <Replace Tag="LOC_HUD_UNITS_Upgraded" Language="zh_Hans_CN">
-            <Text>此单位可晋升</Text>
-        </Replace>
-        <Replace Tag="LOC_HUD_UNITS_None" Language="zh_Hans_CN">
-            <Text>无</Text>
-        </Replace>
-        <Replace Tag="LOC_HUD_UNITS_View" Language="zh_Hans_CN">
-            <Text>在地图上查看此单位</Text>
-        </Replace>
-        <!-- CQUI -->
-        <Replace Tag="LOC_CQUI_NAME" Language="zh_Hans_CN">
-            <Text>CQUI</Text>
-        </Replace>
-        <Replace Tag="LOC_CQUI_MOD_OPTIONS" Language="zh_Hans_CN">
-            <Text>CQUI设置参数</Text>
-        </Replace>
-        <Replace Tag="LOC_CQUI_BINDINGS" Language="zh_Hans_CN">
-            <Text>绑定快捷键</Text>
-        </Replace>
-        <Replace Tag="LOC_CQUI_BINDINGS_DROPDOWN" Language="zh_Hans_CN">
-            <Text>绑定快捷键</Text>
-        </Replace>
-        <Replace Tag="LOC_CQUI_BINDINGS_DROPDOWN_TOOLTIP" Language="zh_Hans_CN">
-            <Text>标准:未改动[NEWLINE][NEWLINE]经典：文明五模式[NEWLINE][NEWLINE]扩展：文明五模式同时变动如下[NEWLINE] WASD镜头移动[NEWLINE] Q/E
+	<LocalizedText>
+		<!-- cityview -->
+		<Replace Tag="LOC_HUD_CITY_REQUIRED_AMENITIES" Language="zh_Hans_CN">
+			<Text>所需宜居度</Text>
+		</Replace>
+		<Replace Tag="LOC_CQUI_Entertainment" Language="zh_Hans_CN">
+			<Text>娱乐设施</Text>
+		</Replace>
+		<Replace Tag="LOC_CQUI_GreatPeople" Language="zh_Hans_CN">
+			<Text>伟人</Text>
+		</Replace>
+		<Replace Tag="LOC_CQUI_NationalParks" Language="zh_Hans_CN">
+			<Text>国家公园</Text>
+		</Replace>
+		<Replace Tag="LOC_CQUI_WarWeariness" Language="zh_Hans_CN">
+			<Text>厌战</Text>
+		</Replace>
+		<Replace Tag="LOC_NCP_TOOLTIP" Language="zh_Hans_CN">
+			<Text>一旦达到下一次文化边界增长时城市将会拓展到这一地块。</Text>
+		</Replace>
+		<!-- deal with -->
+		<Replace Tag="LOC_HUD_REPORTS_TAB_Current_Deals" Language="zh_Hans_CN">
+			<Text>贸易条款</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_DEAL_OUTGOING" Language="zh_Hans_CN">
+			<Text>出口</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_DEAL_INGOING" Language="zh_Hans_CN">
+			<Text>进口</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_TRADETOTAL" Language="zh_Hans_CN">
+			<Text>总计</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_REPORTS_TAB_HCB" Language="zh_Hans_CN">
+			<Text>隐藏城市建筑</Text>
+		</Replace>
+		<!-- unit details -->
+		<Replace Tag="LOC_HUD_REPORTS_TAB_UNITS" Language="zh_Hans_CN">
+			<Text>单位概览</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_UNITSDETAILS_TYPE" Language="zh_Hans_CN">
+			<Text>类型</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_UNITS_UNIT" Language="zh_Hans_CN">
+			<Text>单位</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_UNITS_Unit_Expenses" Language="zh_Hans_CN">
+			<Text>单位开支</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_UNITS_Great_People" Language="zh_Hans_CN">
+			<Text>伟人</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_UNITS_Spy" Language="zh_Hans_CN">
+			<Text>间谍</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_UNITS_Religious" Language="zh_Hans_CN">
+			<Text>宗教</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_UNITS_Trader" Language="zh_Hans_CN">
+			<Text>商人</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_UNITS_Military_Land" Language="zh_Hans_CN">
+			<Text>陆军</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_UNITS_Military_Air" Language="zh_Hans_CN">
+			<Text>空军</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_UNITS_Military_Sea" Language="zh_Hans_CN">
+			<Text>海军</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_UNITS_Civilian_Support" Language="zh_Hans_CN">
+			<Text>辅助单位</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_UNITS_Name" Language="zh_Hans_CN">
+			<Text>单位</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_UNITS_Status" Language="zh_Hans_CN">
+			<Text>状态</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_UNITS_Level" Language="zh_Hans_CN">
+			<Text>等级</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_UNITS_Experience" Language="zh_Hans_CN">
+			<Text>经验</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_UNITS_Health" Language="zh_Hans_CN">
+			<Text>生命</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_UNITS_Movement" Language="zh_Hans_CN">
+			<Text>行动力</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_UNITS_Charges" Language="zh_Hans_CN">
+			<Text>次数</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_UNITS_Number_of_Units" Language="zh_Hans_CN">
+			<Text>总计</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_UNITS_Route" Language="zh_Hans_CN">
+			<Text>路线</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_UNITS_Yields" Language="zh_Hans_CN">
+			<Text>收益</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_UNITS_Class" Language="zh_Hans_CN">
+			<Text>类别</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_UNITS_Strength" Language="zh_Hans_CN">
+			<Text>宗教力量</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_UNITS_Spreads" Language="zh_Hans_CN">
+			<Text>传播</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_UNITS_No_Route" Language="zh_Hans_CN">
+			<Text>无</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_UNITS_No_Yields" Language="zh_Hans_CN">
+			<Text>无</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_UNITS_Turns" Language="zh_Hans_CN">
+			<Text>剩余回合</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_UNITS_Mission" Language="zh_Hans_CN">
+			<Text>任务</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_UNITS_Promotion" Language="zh_Hans_CN">
+			<Text>升级可用</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_UNITS_In_Formation" Language="zh_Hans_CN">
+			<Text>队列</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_UNITS_Upgraded" Language="zh_Hans_CN">
+			<Text>此单位可晋升</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_UNITS_None" Language="zh_Hans_CN">
+			<Text>无</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_UNITS_View" Language="zh_Hans_CN">
+			<Text>在地图上查看此单位</Text>
+		</Replace>
+		<!-- CQUI -->
+		<Replace Tag="LOC_CQUI_NAME" Language="zh_Hans_CN">
+			<Text>CQUI</Text>
+		</Replace>
+		<Replace Tag="LOC_CQUI_MOD_OPTIONS" Language="zh_Hans_CN">
+			<Text>CQUI设置参数</Text>
+		</Replace>
+		<Replace Tag="LOC_CQUI_BINDINGS" Language="zh_Hans_CN">
+			<Text>绑定快捷键</Text>
+		</Replace>
+		<Replace Tag="LOC_CQUI_BINDINGS_DROPDOWN" Language="zh_Hans_CN">
+			<Text>绑定快捷键</Text>
+		</Replace>
+		<Replace Tag="LOC_CQUI_BINDINGS_DROPDOWN_TOOLTIP" Language="zh_Hans_CN">
+			<Text>标准:未改动[NEWLINE][NEWLINE]经典：文明五模式[NEWLINE][NEWLINE]扩展：文明五模式同时变动如下[NEWLINE] WASD镜头移动[NEWLINE] Q/E
                 单位/城市循环查找[NEWLINE] Shift 选择城市/单位[NEWLINE] 勘探/空袭改为alt + Q/S[NEWLINE] 注意：在系统设置中先解除绑定W/E，否则以上快捷键无效!
             </Text>
-        </Replace>
-        <Replace Tag="LOC_CQUI_BINDINGS_CLASSIC" Language="zh_Hans_CN">
-            <Text>经典</Text>
-        </Replace>
-        <Replace Tag="LOC_CQUI_BINDINGS_ENHANCED" Language="zh_Hans_CN">
-            <Text>扩展</Text>
-        </Replace>
-        <Replace Tag="LOC_CQUI_BINDINGS_STANDARD" Language="zh_Hans_CN">
-            <Text>标准</Text>
-        </Replace>
-        <Replace Tag="LOC_CQUI_GENERAL" Language="zh_Hans_CN">
-            <Text>通用</Text>
-        </Replace>
-        <Replace Tag="LOC_CQUI_GENERAL_SHOWLUXURY" Language="zh_Hans_CN">
-            <Text>在顶部面板显示奢侈品</Text>
-        </Replace>
-        <Replace Tag="LOC_CQUI_GENERAL_SMARTBANNER" Language="zh_Hans_CN">
-            <Text>开启城市条</Text>
-        </Replace>
-        <Replace Tag="LOC_CQUI_GENERAL_SMARTBANNER_TOOLTIP" Language="zh_Hans_CN">
-            <Text>城市条显示新的图标. 食物图标和区域建筑图标</Text>
-        </Replace>
-        <Replace Tag="LOC_CQUI_HIDDEN" Language="zh_Hans_CN">
-            <Text>隐藏</Text>
-        </Replace>
-        <Replace Tag="LOC_CQUI_HIDDEN_COWBOY" Language="zh_Hans_CN">
-            <Text>Toggle Horseman Autoproduce</Text>
-        </Replace>
-        <Replace Tag="LOC_CQUI_HIDDEN_BADCOWBOY" Language="zh_Hans_CN">
-            <Text>Toggle Horseman Autosell</Text>
-        </Replace>
-        <Replace Tag="LOC_CQUI_POPUPS" Language="zh_Hans_CN">
-            <Text>弹出框</Text>
-        </Replace>
-        <Replace Tag="LOC_CQUI_POPUPS_TECHVISUAL" Language="zh_Hans_CN">
-            <Text>科技/市政界面</Text>
-        </Replace>
-        <Replace Tag="LOC_CQUI_POPUPS_TECHVISUAL_TOOLTIP" Language="zh_Hans_CN">
-            <Text>当新科技或市政研究完成后显示</Text>
-        </Replace>
-        <Replace Tag="LOC_CQUI_POPUPS_TECHAUDIO" Language="zh_Hans_CN">
-            <Text>科技/市政完成后播放声音</Text>
-        </Replace>
-        <Replace Tag="LOC_CQUI_POPUPS_TECHAUDIO_TOOLTIP" Language="zh_Hans_CN">
-            <Text>播放完成提示音。即使禁用了弹出动画</Text>
-        </Replace>
-        <Replace Tag="LOC_CQUI_SETTINGS_REMINDER" Language="zh_Hans_CN">
-            <Text>注意： 你的不同存档CQUI的设置不同!</Text>
-        </Replace>
-        <!-- ============================== -->
-        <!-- better trade screen -->
-
-        <Replace Tag="LOC_BTS_NAME" Language="zh_Hans_CN">>
+		</Replace>
+		<Replace Tag="LOC_CQUI_BINDINGS_CLASSIC" Language="zh_Hans_CN">
+			<Text>经典</Text>
+		</Replace>
+		<Replace Tag="LOC_CQUI_BINDINGS_ENHANCED" Language="zh_Hans_CN">
+			<Text>扩展</Text>
+		</Replace>
+		<Replace Tag="LOC_CQUI_BINDINGS_STANDARD" Language="zh_Hans_CN">
+			<Text>标准</Text>
+		</Replace>
+		<Replace Tag="LOC_CQUI_GENERAL" Language="zh_Hans_CN">
+			<Text>通用</Text>
+		</Replace>
+		<Replace Tag="LOC_CQUI_GENERAL_SHOWLUXURY" Language="zh_Hans_CN">
+			<Text>在顶部面板显示奢侈品</Text>
+		</Replace>
+		<Replace Tag="LOC_CQUI_GENERAL_SMARTBANNER" Language="zh_Hans_CN">
+			<Text>开启城市条</Text>
+		</Replace>
+		<Replace Tag="LOC_CQUI_GENERAL_SMARTBANNER_TOOLTIP" Language="zh_Hans_CN">
+			<Text>城市条显示新的图标. 食物图标和区域建筑图标</Text>
+		</Replace>
+		<Replace Tag="LOC_CQUI_HIDDEN" Language="zh_Hans_CN">
+			<Text>隐藏</Text>
+		</Replace>
+		<Replace Tag="LOC_CQUI_HIDDEN_COWBOY" Language="zh_Hans_CN">
+			<Text>Toggle Horseman Autoproduce</Text>
+		</Replace>
+		<Replace Tag="LOC_CQUI_HIDDEN_BADCOWBOY" Language="zh_Hans_CN">
+			<Text>Toggle Horseman Autosell</Text>
+		</Replace>
+		<Replace Tag="LOC_CQUI_POPUPS" Language="zh_Hans_CN">
+			<Text>弹出框</Text>
+		</Replace>
+		<Replace Tag="LOC_CQUI_POPUPS_TECHVISUAL" Language="zh_Hans_CN">
+			<Text>科技/市政界面</Text>
+		</Replace>
+		<Replace Tag="LOC_CQUI_POPUPS_TECHVISUAL_TOOLTIP" Language="zh_Hans_CN">
+			<Text>当新科技或市政研究完成后显示</Text>
+		</Replace>
+		<Replace Tag="LOC_CQUI_POPUPS_TECHAUDIO" Language="zh_Hans_CN">
+			<Text>科技/市政完成后播放声音</Text>
+		</Replace>
+		<Replace Tag="LOC_CQUI_POPUPS_TECHAUDIO_TOOLTIP" Language="zh_Hans_CN">
+			<Text>播放完成提示音。即使禁用了弹出动画</Text>
+		</Replace>
+		<Replace Tag="LOC_CQUI_SETTINGS_REMINDER" Language="zh_Hans_CN">
+			<Text>注意： 你的不同存档CQUI的设置不同!</Text>
+		</Replace>
+		<!-- ============================== -->
+		<!-- better trade screen -->
+		<Replace Tag="LOC_BTS_NAME" Language="zh_Hans_CN">>
             <Text>Better Trade Screen汉化</Text>
-        </Replace>
-        <Replace Tag="LOC_BTS_STABILITY" Language="zh_Hans_CN">>
+		</Replace>
+		<Replace Tag="LOC_BTS_STABILITY" Language="zh_Hans_CN">>
             <Text>Beta</Text>
-        </Replace>
-        <Replace Tag="LOC_BTS_TEASER" Language="zh_Hans_CN">>
+		</Replace>
+		<Replace Tag="LOC_BTS_TEASER" Language="zh_Hans_CN">>
             <Text>增加排序，过滤，重复等功能呢个的贸易界面.</Text>
-        </Replace>
-        <Replace Tag="LOC_BTS_DESCRIPTION" Language="zh_Hans_CN">>
+		</Replace>
+		<Replace Tag="LOC_BTS_DESCRIPTION" Language="zh_Hans_CN">>
             <Text>看readme获得完整改动信息.</Text>
-        </Replace>
-        <Replace Tag="LOC_BTS_AUTHORS" Language="zh_Hans_CN">>
+		</Replace>
+		<Replace Tag="LOC_BTS_AUTHORS" Language="zh_Hans_CN">>
             <Text>astog</Text>
-        </Replace>
-
-        <!-- Common Text -->
-        <Replace Tag="LOC_TRADE_SORT_BY_FOOD_TOOLTIP" Language="zh_Hans_CN">
-            <Text>排序 [ICON_Food]食物.</Text>
-        </Replace>
-        <Replace Tag="LOC_TRADE_SORT_BY_PRODUCTION_TOOLTIP" Language="zh_Hans_CN">
-            <Text>排序 [ICON_Production]产能.</Text>
-        </Replace>
-        <Replace Tag="LOC_TRADE_SORT_BY_GOLD_TOOLTIP" Language="zh_Hans_CN">
-            <Text>排序 [ICON_Gold]金.</Text>
-        </Replace>
-        <Replace Tag="LOC_TRADE_SORT_BY_SCIENCE_TOOLTIP" Language="zh_Hans_CN">
-            <Text>排序 [ICON_Science]科研.</Text>
-        </Replace>
-        <Replace Tag="LOC_TRADE_SORT_BY_CULTURE_TOOLTIP" Language="zh_Hans_CN">
-            <Text>排序 [ICON_Culture]文化.</Text>
-        </Replace>
-        <Replace Tag="LOC_TRADE_SORT_BY_FAITH_TOOLTIP" Language="zh_Hans_CN">
-            <Text>排序 [ICON_Faith]信仰.</Text>
-        </Replace>
-        <Replace Tag="LOC_TRADE_SORT_BY_TURNS_REMAINING_TOOLTIP" Language="zh_Hans_CN">
-            <Text>排序 [ICON_Turn]回合数.</Text>
-        </Replace>
-        <Replace Tag="LOC_TRADE_FILTER_INTERNATIONAL_ROUTES_TEXT" Language="zh_Hans_CN">
-            <Text>国际贸易商路</Text>
-        </Replace>
-        <Replace Tag="LOC_TRADE_FILTER_CS_WITH_QUEST_TOOLTIP" Language="zh_Hans_CN">
-            <Text>城市状态以贸易任务</Text>
-        </Replace>
-        <!-- Trade Overview -->
-        <Replace Tag="LOC_TRADE_NO_BENEFIT_TEXT" Language="zh_Hans_CN">
-            <Text>没有收益.</Text>
-        </Replace>
-        <Replace Tag="LOC_TRADE_SORT_BY_TEXT" Language="zh_Hans_CN">
-            <Text>排序:</Text>
-        </Replace>
-        <Replace Tag="LOC_TRADE_EXPAND_ALL_BUTTON_TEXT" Language="zh_Hans_CN">
-            <Text>展开全部:</Text>
-        </Replace>
-        <Replace Tag="LOC_TRADE_COLLAPSE_ALL_BUTTON_TEXT" Language="zh_Hans_CN">
-            <Text>折叠全部:</Text>
-        </Replace>
-        <Replace Tag="LOC_TRADE_TURNS_REMAINING_HELP_TOOLTIP" Language="zh_Hans_CN">
-            <Text>该路线需要完成的总回合数[ICON_Turn]</Text>
-        </Replace>
-        <Replace Tag="LOC_TRADE_TURNS_REMAINING_ALT_HELP_TOOLTIP" Language="zh_Hans_CN">
-            <Text>该路线还需{1_TurnsRemaining}[Icon_Turn]回合完成.</Text>
-        </Replace>
-        <Replace Tag="LOC_TRADE_TURNS_REMAINING_ALT2_HELP_TOOLTIP" Language="zh_Hans_CN">
-            <Text>该路线将会少于{1_TurnsRemaining}[Icon_Turn]回合完成.</Text>
-        </Replace>
-        <Replace Tag="LOC_TRADE_TURNS_REMAINING_TOOLTIP_BREAKER" Language="zh_Hans_CN">
-            <Text>----------------------------</Text>
-        </Replace>
-        <Replace Tag="LOC_TRADE_TURNS_REMAINING_ROUTE_LENGTH_TOOLTIP" Language="zh_Hans_CN">
-            <Text>贸易路线[ICON_Movement]: {1_TripsToDestination}</Text>
-        </Replace>
-        <Replace Tag="LOC_TRADE_TURNS_REMAINING_TRIPS_COUNT_TOOLTIP" Language="zh_Hans_CN">
-            <Text>来往目的地: {1_TripsToDestination}</Text>
-        </Replace>
-        <Replace Tag="LOC_TRADE_TURNS_REMAINING_TURN_COMPLETION_TOOLTIP" Language="zh_Hans_CN">
-            <Text>路线将[ICON_Turn]{1_TurnWhenCompleted}完成</Text>
-        </Replace>
-        <Replace Tag="LOC_TRADE_TURNS_REMAINING_TURN_COMPLETION_ALT_TOOLTIP" Language="zh_Hans_CN">
-            <Text>如果开始，路线将会[ICON_Turn]{1_TurnWhenCompleted}回合完成</Text>
-        </Replace>
-        <Replace Tag="LOC_TRADE_CANCEL_AUTOMATION_TOOLTIP" Language="zh_Hans_CN">
-            <Text>取消该路线的自动重复。一旦路线完成，将会可以重新自选。</Text>
-        </Replace>
-        <!-- Make Trade Route -->
-        <Replace Tag="LOC_TRADE_REPEAT_ROUTE_CHECKBOX_LABEL" Language="zh_Hans_CN">
-            <Text>重复贸易路线:</Text>
-        </Replace>
-        <Replace Tag="LOC_TRADE_REPEAT_ROUTE_CHECKBOX_TOOLTIP" Language="zh_Hans_CN">
-            <Text>开启，使得该路线循环。默认，将会重复上一次的设置.</Text>
-        </Replace>
-        <Replace Tag="LOC_TRADE_FROM_TOP_SORT_ENTRY_CHECKBOX_LABEL" Language="zh_Hans_CN">
-            <Text>从排序结果第一项:</Text>
-        </Replace>
-        <Replace Tag="LOC_TRADE_FROM_TOP_SORT_ENTRY_CHECKBOX_TOOLTIP" Language="zh_Hans_CN">
-            <Text>路线将重复排序设置的第一项 。当它完成最后一个贸易后，路线将会被选择.</Text>
-        </Replace>
-        <!-- Trade Origin Chooser -->
-        <Replace Tag="LOC_ORIGIN_CHOOSER_HEADER_BACKGROUND_TEXT" Language="zh_Hans_CN">
-            <Text>选择城市</Text>
-        </Replace>
-        <Replace Tag="LOC_TRADE_ORIGIN_CHOOSER_HEADER_LABEL_TEXT" Language="zh_Hans_CN">
-            <Text>转移商人到...</Text>
-        </Replace>
-        <Replace Tag="LOC_ORIGIN_CHOOSER_CHANGE_DESTINATION_BUTTON" Language="zh_Hans_CN">
-            <Text>确认</Text>
-        </Replace>
-        <Replace Tag="LOC_TRADE_OVERVIEW_FILTERSETTINGS" Language="zh_Hans_CN">
-            <Text>设置过滤</Text>
-        </Replace>
-        <Replace Tag="LOC_TRADE_OVERVIEW_GORUPBYSETTINGS" Language="zh_Hans_CN">
-            <Text>设置组</Text>
-        </Replace>
-        <!-- ============================================== -->
-    </LocalizedText>
+		</Replace>
+		<!-- Common Text -->
+		<Replace Tag="LOC_TRADE_SORT_BY_FOOD_TOOLTIP" Language="zh_Hans_CN">
+			<Text>排序 [ICON_Food]食物.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRADE_SORT_BY_PRODUCTION_TOOLTIP" Language="zh_Hans_CN">
+			<Text>排序 [ICON_Production]产能.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRADE_SORT_BY_GOLD_TOOLTIP" Language="zh_Hans_CN">
+			<Text>排序 [ICON_Gold]金.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRADE_SORT_BY_SCIENCE_TOOLTIP" Language="zh_Hans_CN">
+			<Text>排序 [ICON_Science]科研.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRADE_SORT_BY_CULTURE_TOOLTIP" Language="zh_Hans_CN">
+			<Text>排序 [ICON_Culture]文化.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRADE_SORT_BY_FAITH_TOOLTIP" Language="zh_Hans_CN">
+			<Text>排序 [ICON_Faith]信仰.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRADE_SORT_BY_TURNS_REMAINING_TOOLTIP" Language="zh_Hans_CN">
+			<Text>排序 [ICON_Turn]回合数.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRADE_FILTER_INTERNATIONAL_ROUTES_TEXT" Language="zh_Hans_CN">
+			<Text>国际贸易商路</Text>
+		</Replace>
+		<Replace Tag="LOC_TRADE_FILTER_CS_WITH_QUEST_TOOLTIP" Language="zh_Hans_CN">
+			<Text>城市状态以贸易任务</Text>
+		</Replace>
+		<!-- Trade Overview -->
+		<Replace Tag="LOC_TRADE_NO_BENEFIT_TEXT" Language="zh_Hans_CN">
+			<Text>没有收益.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRADE_SORT_BY_TEXT" Language="zh_Hans_CN">
+			<Text>排序:</Text>
+		</Replace>
+		<Replace Tag="LOC_TRADE_EXPAND_ALL_BUTTON_TEXT" Language="zh_Hans_CN">
+			<Text>展开全部:</Text>
+		</Replace>
+		<Replace Tag="LOC_TRADE_COLLAPSE_ALL_BUTTON_TEXT" Language="zh_Hans_CN">
+			<Text>折叠全部:</Text>
+		</Replace>
+		<Replace Tag="LOC_TRADE_TURNS_REMAINING_HELP_TOOLTIP" Language="zh_Hans_CN">
+			<Text>该路线需要完成的总回合数[ICON_Turn]</Text>
+		</Replace>
+		<Replace Tag="LOC_TRADE_TURNS_REMAINING_ALT_HELP_TOOLTIP" Language="zh_Hans_CN">
+			<Text>该路线还需{1_TurnsRemaining}[Icon_Turn]回合完成.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRADE_TURNS_REMAINING_ALT2_HELP_TOOLTIP" Language="zh_Hans_CN">
+			<Text>该路线将会少于{1_TurnsRemaining}[Icon_Turn]回合完成.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRADE_TURNS_REMAINING_TOOLTIP_BREAKER" Language="zh_Hans_CN">
+			<Text>----------------------------</Text>
+		</Replace>
+		<Replace Tag="LOC_TRADE_TURNS_REMAINING_ROUTE_LENGTH_TOOLTIP" Language="zh_Hans_CN">
+			<Text>贸易路线[ICON_Movement]: {1_TripsToDestination}</Text>
+		</Replace>
+		<Replace Tag="LOC_TRADE_TURNS_REMAINING_TRIPS_COUNT_TOOLTIP" Language="zh_Hans_CN">
+			<Text>来往目的地: {1_TripsToDestination}</Text>
+		</Replace>
+		<Replace Tag="LOC_TRADE_TURNS_REMAINING_TURN_COMPLETION_TOOLTIP" Language="zh_Hans_CN">
+			<Text>路线将[ICON_Turn]{1_TurnWhenCompleted}完成</Text>
+		</Replace>
+		<Replace Tag="LOC_TRADE_TURNS_REMAINING_TURN_COMPLETION_ALT_TOOLTIP" Language="zh_Hans_CN">
+			<Text>如果开始，路线将会[ICON_Turn]{1_TurnWhenCompleted}回合完成</Text>
+		</Replace>
+		<Replace Tag="LOC_TRADE_CANCEL_AUTOMATION_TOOLTIP" Language="zh_Hans_CN">
+			<Text>取消该路线的自动重复。一旦路线完成，将会可以重新自选。</Text>
+		</Replace>
+		<!-- Make Trade Route -->
+		<Replace Tag="LOC_TRADE_REPEAT_ROUTE_CHECKBOX_LABEL" Language="zh_Hans_CN">
+			<Text>重复贸易路线:</Text>
+		</Replace>
+		<Replace Tag="LOC_TRADE_REPEAT_ROUTE_CHECKBOX_TOOLTIP" Language="zh_Hans_CN">
+			<Text>开启，使得该路线循环。默认，将会重复上一次的设置.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRADE_FROM_TOP_SORT_ENTRY_CHECKBOX_LABEL" Language="zh_Hans_CN">
+			<Text>从排序结果第一项:</Text>
+		</Replace>
+		<Replace Tag="LOC_TRADE_FROM_TOP_SORT_ENTRY_CHECKBOX_TOOLTIP" Language="zh_Hans_CN">
+			<Text>路线将重复排序设置的第一项 。当它完成最后一个贸易后，路线将会被选择.</Text>
+		</Replace>
+		<!-- Trade Origin Chooser -->
+		<Replace Tag="LOC_ORIGIN_CHOOSER_HEADER_BACKGROUND_TEXT" Language="zh_Hans_CN">
+			<Text>选择城市</Text>
+		</Replace>
+		<Replace Tag="LOC_TRADE_ORIGIN_CHOOSER_HEADER_LABEL_TEXT" Language="zh_Hans_CN">
+			<Text>转移商人到...</Text>
+		</Replace>
+		<Replace Tag="LOC_ORIGIN_CHOOSER_CHANGE_DESTINATION_BUTTON" Language="zh_Hans_CN">
+			<Text>确认</Text>
+		</Replace>
+		<Replace Tag="LOC_TRADE_OVERVIEW_FILTERSETTINGS" Language="zh_Hans_CN">
+			<Text>设置过滤</Text>
+		</Replace>
+		<Replace Tag="LOC_TRADE_OVERVIEW_GORUPBYSETTINGS" Language="zh_Hans_CN">
+			<Text>设置组</Text>
+		</Replace>
+		<!-- ============================================== -->
+	</LocalizedText>
 </GameData>
