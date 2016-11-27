@@ -30,6 +30,8 @@
 				<File>UI/WorldViewIconsManager.lua</File>
 				<File>UI/UnitPanel.lua</File>
 				<File>UI/ProductionPanel.lua</File>
+				<File>UI/Panels/CityPanelOverview.lua</File>
+				<File>UI/Panels/CityPanelOverview.xml</File>
 				<!-- HBMAP -->
 				<File>HBMap/HBPangaea.lua</File>
 				<File>HBMap/HBOval.lua</File>
@@ -85,6 +87,8 @@
 		<File>UI/WorldViewIconsManager.lua</File>
 		<File>UI/UnitPanel.lua</File>
 		<File>UI/ProductionPanel.lua</File>
+		<File>UI/Panels/CityPanelOverview.lua</File>
+		<File>UI/Panels/CityPanelOverview.xml</File>
 		<!-- HBMAP -->
 		<File>HBMap/HBPangaea.lua</File>
 		<File>HBMap/HBOval.lua</File>
