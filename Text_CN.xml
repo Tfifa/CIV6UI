@@ -5,20 +5,17 @@
 		<Replace Tag="LOC_HUD_CITY_REQUIRED_AMENITIES" Language="zh_Hans_CN">
 			<Text>所需宜居度</Text>
 		</Replace>
-		<Replace Tag="LOC_CQUI_Entertainment" Language="zh_Hans_CN">
+		<Replace Tag="LOC_TQUI_Entertainment" Language="zh_Hans_CN">
 			<Text>娱乐设施</Text>
 		</Replace>
-		<Replace Tag="LOC_CQUI_GreatPeople" Language="zh_Hans_CN">
+		<Replace Tag="LOC_TQUI_GreatPeople" Language="zh_Hans_CN">
 			<Text>伟人</Text>
 		</Replace>
-		<Replace Tag="LOC_CQUI_NationalParks" Language="zh_Hans_CN">
+		<Replace Tag="LOC_TQUI_NationalParks" Language="zh_Hans_CN">
 			<Text>国家公园</Text>
 		</Replace>
-		<Replace Tag="LOC_CQUI_WarWeariness" Language="zh_Hans_CN">
+		<Replace Tag="LOC_TQUI_WarWeariness" Language="zh_Hans_CN">
 			<Text>厌战</Text>
-		</Replace>
-		<Replace Tag="LOC_NCP_TOOLTIP" Language="zh_Hans_CN">
-			<Text>一旦达到下一次文化边界增长时城市将会拓展到这一地块。</Text>
 		</Replace>
 		<!-- deal with -->
 		<Replace Tag="LOC_HUD_REPORTS_TAB_Current_Deals" Language="zh_Hans_CN">
@@ -139,71 +136,86 @@
 		<Replace Tag="LOC_HUD_UNITS_View" Language="zh_Hans_CN">
 			<Text>在地图上查看此单位</Text>
 		</Replace>
-		<!-- CQUI -->
-		<Replace Tag="LOC_CQUI_NAME" Language="zh_Hans_CN">
-			<Text>CQUI</Text>
+		<!-- TQUI -->
+		<Replace Tag="LOC_TQUI_NAME" Language="zh_Hans_CN">
+			<Text>TQUI</Text>
 		</Replace>
-		<Replace Tag="LOC_CQUI_MOD_OPTIONS" Language="zh_Hans_CN">
-			<Text>CQUI设置参数</Text>
+		<Replace Tag="LOC_TQUI_MOD_OPTIONS" Language="zh_Hans_CN">
+			<Text>TQUI设置</Text>
 		</Replace>
-		<Replace Tag="LOC_CQUI_BINDINGS" Language="zh_Hans_CN">
+		<Replace Tag="LOC_TQUI_BINDINGS" Language="zh_Hans_CN">
 			<Text>绑定快捷键</Text>
 		</Replace>
-		<Replace Tag="LOC_CQUI_BINDINGS_DROPDOWN" Language="zh_Hans_CN">
+		<Replace Tag="LOC_TQUI_BINDINGS_DROPDOWN" Language="zh_Hans_CN">
 			<Text>绑定快捷键</Text>
 		</Replace>
-		<Replace Tag="LOC_CQUI_BINDINGS_DROPDOWN_TOOLTIP" Language="zh_Hans_CN">
+		<Replace Tag="LOC_TQUI_BINDINGS_DROPDOWN_TOOLTIP" Language="zh_Hans_CN">
 			<Text>标准:未改动[NEWLINE][NEWLINE]经典：文明五模式[NEWLINE][NEWLINE]扩展：文明五模式同时变动如下[NEWLINE] WASD镜头移动[NEWLINE] Q/E
                 单位/城市循环查找[NEWLINE] Shift 选择城市/单位[NEWLINE] 勘探/空袭改为alt + Q/S[NEWLINE] 注意：在系统设置中先解除绑定W/E，否则以上快捷键无效!
             </Text>
 		</Replace>
-		<Replace Tag="LOC_CQUI_BINDINGS_CLASSIC" Language="zh_Hans_CN">
+		<Replace Tag="LOC_TQUI_BINDINGS_CLASSIC" Language="zh_Hans_CN">
 			<Text>经典</Text>
 		</Replace>
-		<Replace Tag="LOC_CQUI_BINDINGS_ENHANCED" Language="zh_Hans_CN">
+		<Replace Tag="LOC_TQUI_BINDINGS_ENHANCED" Language="zh_Hans_CN">
 			<Text>扩展</Text>
 		</Replace>
-		<Replace Tag="LOC_CQUI_BINDINGS_STANDARD" Language="zh_Hans_CN">
+		<Replace Tag="LOC_TQUI_BINDINGS_STANDARD" Language="zh_Hans_CN">
 			<Text>标准</Text>
 		</Replace>
-		<Replace Tag="LOC_CQUI_GENERAL" Language="zh_Hans_CN">
+		<Replace Tag="LOC_TQUI_GENERAL" Language="zh_Hans_CN">
 			<Text>通用</Text>
 		</Replace>
-		<Replace Tag="LOC_CQUI_GENERAL_SHOWLUXURY" Language="zh_Hans_CN">
+		<Replace Tag="LOC_TQUI_GENERAL_SHOWLUXURY" Language="zh_Hans_CN">
 			<Text>在顶部面板显示奢侈品</Text>
 		</Replace>
-		<Replace Tag="LOC_CQUI_GENERAL_SMARTBANNER" Language="zh_Hans_CN">
+		<Replace Tag="LOC_TQUI_GENERAL_SMARTBANNER" Language="zh_Hans_CN">
 			<Text>开启城市条</Text>
 		</Replace>
-		<Replace Tag="LOC_CQUI_GENERAL_SMARTBANNER_TOOLTIP" Language="zh_Hans_CN">
+		<Replace Tag="LOC_TQUI_GENERAL_SMARTBANNER_TOOLTIP" Language="zh_Hans_CN">
 			<Text>城市条显示新的图标. 食物图标和区域建筑图标</Text>
 		</Replace>
-		<Replace Tag="LOC_CQUI_HIDDEN" Language="zh_Hans_CN">
+		<Replace Tag="LOC_TQUI_HIDDEN" Language="zh_Hans_CN">
 			<Text>隐藏</Text>
 		</Replace>
-		<Replace Tag="LOC_CQUI_HIDDEN_COWBOY" Language="zh_Hans_CN">
+		<Replace Tag="LOC_TQUI_HIDDEN_COWBOY" Language="zh_Hans_CN">
 			<Text>Toggle Horseman Autoproduce</Text>
 		</Replace>
-		<Replace Tag="LOC_CQUI_HIDDEN_BADCOWBOY" Language="zh_Hans_CN">
+		<Replace Tag="LOC_TQUI_HIDDEN_BADCOWBOY" Language="zh_Hans_CN">
 			<Text>Toggle Horseman Autosell</Text>
 		</Replace>
-		<Replace Tag="LOC_CQUI_POPUPS" Language="zh_Hans_CN">
+		<Replace Tag="LOC_TQUI_POPUPS" Language="zh_Hans_CN">
 			<Text>弹出框</Text>
 		</Replace>
-		<Replace Tag="LOC_CQUI_POPUPS_TECHVISUAL" Language="zh_Hans_CN">
+		<Replace Tag="LOC_TQUI_POPUPS_TECHVISUAL" Language="zh_Hans_CN">
 			<Text>科技/市政界面</Text>
 		</Replace>
-		<Replace Tag="LOC_CQUI_POPUPS_TECHVISUAL_TOOLTIP" Language="zh_Hans_CN">
+		<Replace Tag="LOC_TQUI_POPUPS_TECHVISUAL_TOOLTIP" Language="zh_Hans_CN">
 			<Text>当新科技或市政研究完成后显示</Text>
 		</Replace>
-		<Replace Tag="LOC_CQUI_POPUPS_TECHAUDIO" Language="zh_Hans_CN">
+		<Replace Tag="LOC_TQUI_POPUPS_TECHAUDIO" Language="zh_Hans_CN">
 			<Text>科技/市政完成后播放声音</Text>
 		</Replace>
-		<Replace Tag="LOC_CQUI_POPUPS_TECHAUDIO_TOOLTIP" Language="zh_Hans_CN">
+		<Replace Tag="LOC_TQUI_POPUPS_TECHAUDIO_TOOLTIP" Language="zh_Hans_CN">
 			<Text>播放完成提示音。即使禁用了弹出动画</Text>
 		</Replace>
-		<Replace Tag="LOC_CQUI_SETTINGS_REMINDER" Language="zh_Hans_CN">
-			<Text>注意： 你的不同存档CQUI的设置不同!</Text>
+		<Replace Tag="LOC_TQUI_SETTINGS_REMINDER" Language="zh_Hans_CN">
+			<Text>注意： 你的不同存档TQUI的设置不同!</Text>
+		</Replace>
+		<Replace Tag="LOC_TQUI_GENERAL_TOGGLEYIELDSONLOAD" Language="zh_Hans_CN">
+			<Text>开启地块产量!</Text>
+		</Replace>
+		<Replace Tag="LOC_TQUI_GOSSIP_TAB" Language="zh_Hans_CN">
+			<Text>消息设置</Text>
+		</Replace>
+		<Replace Tag="LOC_TQUI_GOSSIP_SHOW" Language="zh_Hans_CN">
+			<Text>消息显示开关</Text>
+		</Replace>
+		<Replace Tag="LOC_TQUI_GOSSIP_TRIMMESSAGE" Language="zh_Hans_CN">
+			<Text>是否简略消息</Text>
+		</Replace>
+		<Replace Tag="LOC_TQUI_GOSSIP_TRIMMESSAGE_TOOLTIP" Language="zh_Hans_CN">
+			<Text>去除消息提示中的“某某偶然听说”字样</Text>
 		</Replace>
 		<!-- ============================== -->
 		<!-- better trade screen -->
@@ -320,5 +332,11 @@
 			<Text>设置组</Text>
 		</Replace>
 		<!-- ============================================== -->
+		<Replace Tag="LOC_SUM_SCORE" Language="zh_Hans_CN">
+			<Text>原因总和</Text>
+		</Replace>
+		<Replace Tag="LOC_SUM_SCORE" Language="en_US">
+			<Text>TOTAL</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>

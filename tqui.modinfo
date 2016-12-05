@@ -10,37 +10,37 @@
 	<Components>
 		<ImportFiles id="TQUI_IMPORT_FILES">
 			<Items>
-				<!-- cinty banner -->
 				<File>UI/WorldView/CityBannerManager.lua</File>
 				<File>UI/WorldView/CityBannerManager.xml</File>
-				<!-- city panels			 -->
 				<File>UI/Panels/CityPanel.lua</File>
 				<File>UI/Panels/CityPanel.xml</File>
-				<!-- popups				 -->
 				<File>UI/Popups/BoostUnlockedPopup.lua</File>
 				<File>UI/Popups/TechCivicCompletedPopup.lua</File>
 				<File>UI/Popups/TechCivicCompletedPopup.xml</File>
 				<File>UI/Popups/NaturalWonderPopup.lua</File>
 				<File>UI/InGame.lua</File>
-				<!-- combatinfo toppanel -->
+				<File>UI/InGame.xml</File>
 				<File>UI/Panels/StatusMessagePanel.lua</File>
 				<File>UI/Panels/StatusMessagePanel.xml</File>
 				<File>UI/TopPanel.lua</File>
-				<!-- WorldViewIcons -->
+				<File>UI/TopPanel.xml</File>
 				<File>UI/WorldViewIconsManager.lua</File>
-				<File>UI/UnitPanel.lua</File>
-				<File>UI/ProductionPanel.lua</File>
+				<File>UI/Panels/UnitPanel.lua</File>
+				<File>UI/Panels/ProductionPanel.lua</File>
 				<File>UI/Panels/CityPanelOverview.lua</File>
 				<File>UI/Panels/CityPanelOverview.xml</File>
-				<!-- HBMAP -->
-				<File>HBMap/HBPangaea.lua</File>
-				<File>HBMap/HBOval.lua</File>
-				<File>HBMap/MapConfig.sql</File>
-				<File>HBMap/AssignStartingPlots.lua</File>
-				<File>HBMap/MountainsCliffs.lua</File>
-				<File>HBMap/ResourceGenerator.lua</File>
-				<File>HBMap/FeatureGenerator.lua</File>
-				<File>HBMap/TerrainGenerator.lua</File>
+				<File>UI/MinimapPanel.xml</File>
+				<File>UI/MinimapPanel.lua</File>
+				<File>TQUI/TQUI_Loads.xml</File>
+				<File>TQUI/TQUI_Loads.lua</File>
+				<!-- <File>HBMap/HBPangaea.lua</File> -->
+				<!-- <File>HBMap/HBOval.lua</File> -->
+				<!-- <File>HBMap/MapConfig.sql</File> -->
+				<!-- <File>HBMap/AssignStartingPlots.lua</File> -->
+				<!-- <File>HBMap/MountainsCliffs.lua</File> -->
+				<!-- <File>HBMap/ResourceGenerator.lua</File> -->
+				<!-- <File>HBMap/FeatureGenerator.lua</File> -->
+				<!-- <File>HBMap/TerrainGenerator.lua</File> -->
 			</Items>
 		</ImportFiles>
 		<ImportFiles id="BETTER_TRADE_SCREEN_IMPORT_FILES">
@@ -62,42 +62,54 @@
 		</ImportFiles>
 		<LocalizedText id="TQUI_TEXT">
 			<Items>
-				<File>TQUI/Text_CN.xml</File>
+				<File>Text_CN.xml</File>
+				<File>Text_EN.xml</File>
 			</Items>
 		</LocalizedText>
+		<UpdateDatabase id="TQUI_Settings">
+			<Properties>
+				<Name>TQUI Settings</Name>
+			</Properties>
+			<Items>
+				<File>TQUI/TQUI_DatabaseSchema.sql</File>
+				<File>TQUI/TQUI_Settings.sql</File>
+			</Items>
+		</UpdateDatabase>
 	</Components>
 	<Files>
-		<!-- cinty banner -->
 		<File>UI/WorldView/CityBannerManager.lua</File>
 		<File>UI/WorldView/CityBannerManager.xml</File>
-		<!-- city panels			 -->
 		<File>UI/Panels/CityPanel.lua</File>
 		<File>UI/Panels/CityPanel.xml</File>
-		<!-- popups				 -->
 		<File>UI/Popups/BoostUnlockedPopup.lua</File>
 		<File>UI/Popups/TechCivicCompletedPopup.lua</File>
 		<File>UI/Popups/TechCivicCompletedPopup.xml</File>
 		<File>UI/Popups/NaturalWonderPopup.lua</File>
 		<File>UI/InGame.lua</File>
-		<!-- combatinfo toppanel -->
+		<File>UI/InGame.xml</File>
 		<File>UI/Panels/StatusMessagePanel.lua</File>
 		<File>UI/Panels/StatusMessagePanel.xml</File>
 		<File>UI/TopPanel.lua</File>
-		<!-- WorldViewIcons -->
+		<File>UI/TopPanel.xml</File>
 		<File>UI/WorldViewIconsManager.lua</File>
-		<File>UI/UnitPanel.lua</File>
-		<File>UI/ProductionPanel.lua</File>
+		<File>UI/Panels/UnitPanel.lua</File>
+		<File>UI/Panels/ProductionPanel.lua</File>
 		<File>UI/Panels/CityPanelOverview.lua</File>
 		<File>UI/Panels/CityPanelOverview.xml</File>
-		<!-- HBMAP -->
-		<File>HBMap/HBPangaea.lua</File>
-		<File>HBMap/HBOval.lua</File>
-		<File>HBMap/MapConfig.sql</File>
-		<File>HBMap/AssignStartingPlots.lua</File>
-		<File>HBMap/MountainsCliffs.lua</File>
-		<File>HBMap/ResourceGenerator.lua</File>
-		<File>HBMap/FeatureGenerator.lua</File>
-		<File>HBMap/TerrainGenerator.lua</File>
+		<File>UI/MinimapPanel.xml</File>
+		<File>UI/MinimapPanel.lua</File>
+		<File>TQUI/TQUI_Loads.xml</File>
+		<File>TQUI/TQUI_Loads.lua</File>
+		<File>TQUI/TQUI_DatabaseSchema.sql</File>
+		<File>TQUI/TQUI_Settings.sql</File>
+		<!-- <File>HBMap/HBPangaea.lua</File> -->
+		<!-- <File>HBMap/HBOval.lua</File> -->
+		<!-- <File>HBMap/MapConfig.sql</File> -->
+		<!-- <File>HBMap/AssignStartingPlots.lua</File> -->
+		<!-- <File>HBMap/MountainsCliffs.lua</File> -->
+		<!-- <File>HBMap/ResourceGenerator.lua</File> -->
+		<!-- <File>HBMap/FeatureGenerator.lua</File> -->
+		<!-- <File>HBMap/TerrainGenerator.lua</File> -->
 		<File>BTS/TradeOverview.xml</File>
 		<File>BTS/TradeOverview.lua</File>
 		<File>BTS/Choosers/TradeRouteChooser.xml</File>
@@ -107,13 +119,14 @@
 		<File>URS/ReportScreen.lua</File>
 		<File>URS/ReportScreen.xml</File>
 		<File>URS/UnitPromotionPopup.lua</File>
-		<File>TQUI/Text_CN.xml</File>
+		<File>Text_CN.xml</File>
+		<File>Text_EN.xml</File>
 	</Files>
-	<Settings>
-		<Custom id="HB_MAP_SETTING">
-			<Items>
-				<File>HBMap/MapConfig.sql</File>
-			</Items>
-		</Custom>
-	</Settings>
+	<!-- <Settings> -->
+	<!-- <Custom id="HB_MAP_SETTING"> -->
+	<!-- <Items> -->
+	<!-- <File>HBMap/MapConfig.sql</File> -->
+	<!-- </Items> -->
+	<!-- </Custom> -->
+	<!-- </Settings> -->
 </Mod>

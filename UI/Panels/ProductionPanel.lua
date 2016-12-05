@@ -64,7 +64,7 @@ local purchGoldUnitList
 local purchFaithUnitList
 
 local showDisabled :boolean = true;
-local m_recommendedItems:table;
+-- local m_recommendedItems:table;
 
 --local prodAlreadyStarting :boolean = false;
 
@@ -421,7 +421,7 @@ end
 function View(data)
 	local selectedCity	= UI.GetHeadSelectedCity();
 	-- Get the hashes for the top three recommended items
-	m_recommendedItems = selectedCity:GetCityAI():GetBuildRecommendations();
+	-- m_recommendedItems = selectedCity:GetCityAI():GetBuildRecommendations();
 	PopulateList(data, LISTMODE.PRODUCTION, m_listIM);
 	PopulateList(data, LISTMODE.PURCHASE_GOLD, m_purchaseListIM);
 	PopulateList(data, LISTMODE.PURCHASE_FAITH, m_purchaseFaithListIM);

@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- cityview -->
+		<Replace Tag="LOC_HUD_CITY_REQUIRED_AMENITIES" Language="en_US">
+			<Text>REQUIRED AMENITIES</Text>
+		</Replace>
+		<Replace Tag="LOC_TQUI_Entertainment" Language="en_US">
+			<Text>Entertainment</Text>
+		</Replace>
+		<Replace Tag="LOC_TQUI_GreatPeople" Language="en_US">
+			<Text>Great People</Text>
+		</Replace>
+		<Replace Tag="LOC_TQUI_NationalParks" Language="en_US">
+			<Text>National Parks</Text>
+		</Replace>
+		<Replace Tag="LOC_TQUI_WarWeariness" Language="en_US">
+			<Text>WarWeariness</Text>
+		</Replace>
+		<!-- deal with -->
+		<Replace Tag="LOC_HUD_REPORTS_TAB_Current_Deals" Language="en_US">
+			<Text>Current Deals</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_DEAL_OUTGOING" Language="en_US">
+			<Text>OUTGOING</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_DEAL_INGOING" Language="en_US">
+			<Text>INGOING</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_TRADETOTAL" Language="en_US">
+			<Text>TRADETOTAL</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_REPORTS_TAB_HCB" Language="en_US">
+			<Text>Hidden City Buidings</Text>
+		</Replace>
+		<!-- unit details -->
+		<Replace Tag="LOC_HUD_REPORTS_TAB_UNITS" Language="en_US">
+			<Text>UNITS</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_UNITSDETAILS_TYPE" Language="en_US">
+			<Text>TYPE</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_UNITS_UNIT" Language="en_US">
+			<Text>UNIT</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_UNITS_Unit_Expenses" Language="en_US">
+			<Text>Unit Expenses</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_UNITS_Great_People" Language="en_US">
+			<Text>Great People</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_UNITS_Spy" Language="en_US">
+			<Text>Spy</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_UNITS_Religious" Language="en_US">
+			<Text>Religious</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_UNITS_Trader" Language="en_US">
+			<Text>Trader</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_UNITS_Military_Land" Language="en_US">
+			<Text>Military_Land</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_UNITS_Military_Air" Language="en_US">
+			<Text>Military_Air</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_UNITS_Military_Sea" Language="en_US">
+			<Text>Military_Sea</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_UNITS_Civilian_Support" Language="en_US">
+			<Text>Civilian_Support</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_UNITS_Name" Language="en_US">
+			<Text>Name</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_UNITS_Status" Language="en_US">
+			<Text>Status</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_UNITS_Level" Language="en_US">
+			<Text>Level</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_UNITS_Experience" Language="en_US">
+			<Text>Experience</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_UNITS_Health" Language="en_US">
+			<Text>Health</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_UNITS_Movement" Language="en_US">
+			<Text>Movement</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_UNITS_Charges" Language="en_US">
+			<Text>Charges</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_UNITS_Number_of_Units" Language="en_US">
+			<Text>Number of Units</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_UNITS_Route" Language="en_US">
+			<Text>Route</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_UNITS_Yields" Language="en_US">
+			<Text>Yields</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_UNITS_Class" Language="en_US">
+			<Text>Class</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_UNITS_Strength" Language="en_US">
+			<Text>Strength</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_UNITS_Spreads" Language="en_US">
+			<Text>Spreads</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_UNITS_No_Route" Language="en_US">
+			<Text>No Route</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_UNITS_No_Yields" Language="en_US">
+			<Text>No Yields</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_UNITS_Turns" Language="en_US">
+			<Text>remaning Turns</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_UNITS_Mission" Language="en_US">
+			<Text>Mission</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_UNITS_Promotion" Language="en_US">
+			<Text>Promotion</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_UNITS_In_Formation" Language="en_US">
+			<Text>In Formation</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_UNITS_Upgraded" Language="en_US">
+			<Text>Upgrad</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_UNITS_None" Language="en_US">
+			<Text>None</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_UNITS_View" Language="en_US">
+			<Text>View in the map</Text>
+		</Replace>
+		<!-- TQUI -->
+		<Replace Tag="LOC_TQUI_NAME" Language="en_US">
+			<Text>TQUI</Text>
+		</Replace>
+		<Replace Tag="LOC_TQUI_MOD_OPTIONS" Language="en_US">
+			<Text>TQUI gossip</Text>
+		</Replace>
+		<Replace Tag="LOC_TQUI_BINDINGS" Language="en_US">
+			<Text>BINDINGS</Text>
+		</Replace>
+		<Replace Tag="LOC_TQUI_BINDINGS_DROPDOWN" Language="en_US">
+			<Text>BINDINGS_DROPDOWN</Text>
+		</Replace>
+		<Replace Tag="LOC_TQUI_BINDINGS_DROPDOWN_TOOLTIP" Language="en_US">
+			<Text>TOOLTIP</Text>
+		</Replace>
+		<Replace Tag="LOC_TQUI_BINDINGS_CLASSIC" Language="en_US">
+			<Text>CLASSIC</Text>
+		</Replace>
+		<Replace Tag="LOC_TQUI_BINDINGS_ENHANCED" Language="en_US">
+			<Text>ENHANCED</Text>
+		</Replace>
+		<Replace Tag="LOC_TQUI_BINDINGS_STANDARD" Language="en_US">
+			<Text>STANDARD</Text>
+		</Replace>
+		<Replace Tag="LOC_TQUI_GENERAL" Language="en_US">
+			<Text>GENERAL</Text>
+		</Replace>
+		<Replace Tag="LOC_TQUI_GENERAL_SHOWLUXURY" Language="en_US">
+			<Text>SHOWLUXURY</Text>
+		</Replace>
+		<Replace Tag="LOC_TQUI_GENERAL_SMARTBANNER" Language="en_US">
+			<Text>SMARTBANNER</Text>
+		</Replace>
+		<Replace Tag="LOC_TQUI_GENERAL_SMARTBANNER_TOOLTIP" Language="en_US">
+			<Text>SMARTBANNER_TOOLTIP</Text>
+		</Replace>
+		<Replace Tag="LOC_TQUI_HIDDEN" Language="en_US">
+			<Text>HIDDEN</Text>
+		</Replace>
+		<Replace Tag="LOC_TQUI_HIDDEN_COWBOY" Language="en_US">
+			<Text>Toggle Horseman Autoproduce</Text>
+		</Replace>
+		<Replace Tag="LOC_TQUI_HIDDEN_BADCOWBOY" Language="en_US">
+			<Text>Toggle Horseman Autosell</Text>
+		</Replace>
+		<Replace Tag="LOC_TQUI_POPUPS" Language="en_US">
+			<Text>POPUPS</Text>
+		</Replace>
+		<Replace Tag="LOC_TQUI_POPUPS_TECHVISUAL" Language="en_US">
+			<Text>TECHVISUAL</Text>
+		</Replace>
+		<Replace Tag="LOC_TQUI_POPUPS_TECHVISUAL_TOOLTIP" Language="en_US">
+			<Text>TECHVISUAL_TOOLTIP</Text>
+		</Replace>
+		<Replace Tag="LOC_TQUI_POPUPS_TECHAUDIO" Language="en_US">
+			<Text>TECHAUDIO</Text>
+		</Replace>
+		<Replace Tag="LOC_TQUI_POPUPS_TECHAUDIO_TOOLTIP" Language="en_US">
+			<Text>TECHAUDIOOOLTIP</Text>
+		</Replace>
+		<Replace Tag="LOC_TQUI_SETTINGS_REMINDER" Language="en_US">
+			<Text>REMINDER!</Text>
+		</Replace>
+		<Replace Tag="LOC_TQUI_GENERAL_TOGGLEYIELDSONLOAD" Language="en_US">
+			<Text>TOGGLEYIELDSONLOAD!</Text>
+		</Replace>
+		<Replace Tag="LOC_TQUI_GOSSIP_TAB" Language="en_US">
+			<Text>GOSSIP</Text>
+		</Replace>
+		<Replace Tag="LOC_TQUI_GOSSIP_SHOW" Language="en_US">
+			<Text>GOSSIP SHOW</Text>
+		</Replace>
+		<Replace Tag="LOC_TQUI_GOSSIP_TRIMMESSAGE" Language="en_US">
+			<Text>GOSSIP TRIMMESSAGE</Text>
+		</Replace>
+		<Replace Tag="LOC_TQUI_GOSSIP_TRIMMESSAGE_TOOLTIP" Language="en_US">
+			<Text>TRIM xx "that"</Text>
+		</Replace>
+		<!-- ============================== -->
+		<!-- better trade screen -->
+		<Replace Tag="LOC_BTS_NAME" Language="en_US">>
+            <Text>Better Trade Screen </Text>
+		</Replace>
+		<Replace Tag="LOC_BTS_STABILITY" Language="en_US">>
+            <Text>Beta</Text>
+		</Replace>
+		<Replace Tag="LOC_BTS_TEASER" Language="en_US">>
+            <Text> .</Text>
+		</Replace>
+		<Replace Tag="LOC_BTS_DESCRIPTION" Language="en_US">>
+            <Text> .</Text>
+		</Replace>
+		<Replace Tag="LOC_BTS_AUTHORS" Language="en_US">>
+            <Text>astog</Text>
+		</Replace>
+		<!-- Common Text -->
+		<Replace Tag="LOC_TRADE_SORT_BY_FOOD_TOOLTIP" Language="en_US">
+			<Text>sort by [ICON_Food]food.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRADE_SORT_BY_PRODUCTION_TOOLTIP" Language="en_US">
+			<Text>sort by [ICON_Production]PRODUCTION.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRADE_SORT_BY_GOLD_TOOLTIP" Language="en_US">
+			<Text>sort by [ICON_Gold]GOLD.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRADE_SORT_BY_SCIENCE_TOOLTIP" Language="en_US">
+			<Text>sort by [ICON_Science]SCIENCE.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRADE_SORT_BY_CULTURE_TOOLTIP" Language="en_US">
+			<Text>sort by [ICON_Culture]CULTURE.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRADE_SORT_BY_FAITH_TOOLTIP" Language="en_US">
+			<Text>sort by [ICON_Faith]FAITH.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRADE_SORT_BY_TURNS_REMAINING_TOOLTIP" Language="en_US">
+			<Text>sort by [ICON_Turn]TURNS_REMAINING.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRADE_FILTER_INTERNATIONAL_ROUTES_TEXT" Language="en_US">
+			<Text>INTERNATIONAL ROUTES</Text>
+		</Replace>
+		<Replace Tag="LOC_TRADE_FILTER_CS_WITH_QUEST_TOOLTIP" Language="en_US">
+			<Text>CS WITH QUEST</Text>
+		</Replace>
+		<!-- Trade Overview -->
+		<Replace Tag="LOC_TRADE_NO_BENEFIT_TEXT" Language="en_US">
+			<Text>NO BENEFIT.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRADE_SORT_BY_TEXT" Language="en_US">
+			<Text>SORT BY:</Text>
+		</Replace>
+		<Replace Tag="LOC_TRADE_EXPAND_ALL_BUTTON_TEXT" Language="en_US">
+			<Text>EXPAND ALL:</Text>
+		</Replace>
+		<Replace Tag="LOC_TRADE_COLLAPSE_ALL_BUTTON_TEXT" Language="en_US">
+			<Text>COLLAPSE ALL:</Text>
+		</Replace>
+		<Replace Tag="LOC_TRADE_TURNS_REMAINING_HELP_TOOLTIP" Language="en_US">
+			<Text>TURNS REMAINING[ICON_Turn]</Text>
+		</Replace>
+		<Replace Tag="LOC_TRADE_TURNS_REMAINING_ALT_HELP_TOOLTIP" Language="en_US">
+			<Text>TURNS_REMAINING{1_TurnsRemaining}[Icon_Turn] .</Text>
+		</Replace>
+		<Replace Tag="LOC_TRADE_TURNS_REMAINING_ALT2_HELP_TOOLTIP" Language="en_US">
+			<Text>TURNS_REMAINING{1_TurnsRemaining}[Icon_Turn] .</Text>
+		</Replace>
+		<Replace Tag="LOC_TRADE_TURNS_REMAINING_TOOLTIP_BREAKER" Language="en_US">
+			<Text>----------------------------</Text>
+		</Replace>
+		<Replace Tag="LOC_TRADE_TURNS_REMAINING_ROUTE_LENGTH_TOOLTIP" Language="en_US">
+			<Text>ROUTE[ICON_Movement]: {1_TripsToDestination}</Text>
+		</Replace>
+		<Replace Tag="LOC_TRADE_TURNS_REMAINING_TRIPS_COUNT_TOOLTIP" Language="en_US">
+			<Text>REMAINING TRIPS: {1_TripsToDestination}</Text>
+		</Replace>
+		<Replace Tag="LOC_TRADE_TURNS_REMAINING_TURN_COMPLETION_TOOLTIP" Language="en_US">
+			<Text>REMAINING TURN COMPLETION[ICON_Turn]{1_TurnWhenCompleted} </Text>
+		</Replace>
+		<Replace Tag="LOC_TRADE_TURNS_REMAINING_TURN_COMPLETION_ALT_TOOLTIP" Language="en_US">
+			<Text>REMAINING TURN COMPLETION[ICON_Turn]{1_TurnWhenCompleted} </Text>
+		</Replace>
+		<Replace Tag="LOC_TRADE_CANCEL_AUTOMATION_TOOLTIP" Language="en_US">
+			<Text>CANCEL AUTOMATION</Text>
+		</Replace>
+		<!-- Make Trade Route -->
+		<Replace Tag="LOC_TRADE_REPEAT_ROUTE_CHECKBOX_LABEL" Language="en_US">
+			<Text>REPEAT ROUTE</Text>
+		</Replace>
+		<Replace Tag="LOC_TRADE_REPEAT_ROUTE_CHECKBOX_TOOLTIP" Language="en_US">
+			<Text>REPEAT ROUTE</Text>
+		</Replace>
+		<Replace Tag="LOC_TRADE_FROM_TOP_SORT_ENTRY_CHECKBOX_LABEL" Language="en_US">
+			<Text>SORT ENTRY:</Text>
+		</Replace>
+		<Replace Tag="LOC_TRADE_FROM_TOP_SORT_ENTRY_CHECKBOX_TOOLTIP" Language="en_US">
+			<Text>SORT ENTRY.</Text>
+		</Replace>
+		<!-- Trade Origin Chooser -->
+		<Replace Tag="LOC_ORIGIN_CHOOSER_HEADER_BACKGROUND_TEXT" Language="en_US">
+			<Text>CHOOSER CITY</Text>
+		</Replace>
+		<Replace Tag="LOC_TRADE_ORIGIN_CHOOSER_HEADER_LABEL_TEXT" Language="en_US">
+			<Text>CHANGE HEADER TO...</Text>
+		</Replace>
+		<Replace Tag="LOC_ORIGIN_CHOOSER_CHANGE_DESTINATION_BUTTON" Language="en_US">
+			<Text>CONFIRUM</Text>
+		</Replace>
+		<Replace Tag="LOC_TRADE_OVERVIEW_FILTERSETTINGS" Language="en_US">
+			<Text>FILTER SETTINGS</Text>
+		</Replace>
+		<Replace Tag="LOC_TRADE_OVERVIEW_GORUPBYSETTINGS" Language="en_US">
+			<Text>GORUP BY SETTINGS</Text>
+		</Replace>
+		<!-- ============================================== -->
+		<Replace Tag="LOC_SUM_SCORE" Language="en_US">
+			<Text>TOTAL</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

@@ -18,9 +18,6 @@ local m_viewReportsX :number = 0; -- With of view report button
 -- ===========================================================================
 
 local g_showluxury = true;
-function OnToggleShowLuxury() g_showluxury = not g_showluxury; RefreshResources(); print("called"); end
-
-LuaEvents.QUI_Option_ToggleShowLuxury.Add(OnToggleShowLuxury);
 
 -- ===========================================================================
 --	Game Engine Event
@@ -66,6 +63,25 @@ function OnToggleReportsScreen()
         LuaEvents.TopPanel_OpenReportsScreen();
     else
         LuaEvents.TopPanel_CloseReportsScreen();
+    end
+end
+
+-- ===========================================================================
+--	UI Callback
+--	Send signal to open/close the TQUI Screen
+-- ===========================================================================
+function OnToggleTQUIScreen()
+    
+     local pTQUIScreen :table = ContextPtr:LookUpControl("/InGame/TQUI_Loads");
+     if pTQUIScreen == nil then
+        UI.DataError("Unable to toggle Reports Screen.  Not found in '/InGame/TQUI_Loads'.");
+        return;
+    end
+	
+    if pTQUIScreen:IsHidden() then
+        LuaEvents.TopPanel_OpenTQUIScreen();
+    else
+        LuaEvents.TopPanel_CloseTQUIScreen();
     end
 end
 
@@ -485,6 +501,8 @@ function Initialize()
     Controls.MenuButton:RegisterCallback(Mouse.eLClick, OnMenu);
     Controls.MenuButton:RegisterCallback(Mouse.eMouseEnter, function() UI.PlaySound("Main_Menu_Mouse_Over"); end);
     Controls.ViewReports:RegisterCallback(Mouse.eLClick, OnToggleReportsScreen);
+	Controls.TQUI:RegisterCallback(Mouse.eLClick, OnToggleTQUIScreen);
+	Controls.TQUI:SetToolTipString(Locale.Lookup("LOC_TQUI_MOD_OPTIONS"));   
 
     -- Game Events
     Events.AnarchyBegins.Add(OnRefreshYields);

@@ -71,18 +71,18 @@ local ms_eventID = 0;
 local m_tabs;
 local m_isShowingPanel    :boolean = false;
 
--- ====================CQUI Cityview==========================================
+-- ====================TQUI Cityview==========================================
   
-  -- function CQUI_OnCityviewEnabled()
+  -- function TQUI_OnCityviewEnabled()
     -- OnShowOverviewPanel(true)
   -- end
   
-  -- function CQUI_OnCityviewDisabled()
+  -- function TQUI_OnCityviewDisabled()
     -- OnShowOverviewPanel(false);
   -- end
   
-  -- LuaEvents.CQUI_CityPanelOverview_CityviewEnable.Add( CQUI_OnCityviewEnabled);
-  -- LuaEvents.CQUI_CityPanelOverview_CityviewDisable.Add( CQUI_OnCityviewDisabled);
+  -- LuaEvents.TQUI_CityPanelOverview_CityviewEnable.Add( TQUI_OnCityviewEnabled);
+  -- LuaEvents.TQUI_CityPanelOverview_CityviewDisable.Add( TQUI_OnCityviewDisabled);
 
 -- ===========================================================================
 
@@ -848,7 +848,7 @@ function OnClose()
 end
 
 function OnCloseButtonClicked()
-  -- LuaEvents.CQUI_CityPanel_CityviewDisable();
+  -- LuaEvents.TQUI_CityPanel_CityviewDisable();
   	LuaEvents.CityPanelOverview_CloseButton();
 	Close();
 	UI.PlaySound("UI_CityPanel_Closed"); -- This is also being called in the Close function? but its in an if
